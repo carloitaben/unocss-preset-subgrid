@@ -1,0 +1,52 @@
+{
+  "name": "unocss-preset-subgrid",
+  "version": "0.0.1",
+  "description": "",
+  "type": "module",
+  "packageManager": "pnpm@9.12.2",
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carloitaben/unocss-preset-subgrid"
+  },
+  "bugs": {
+    "url": "https://github.com/carloitaben/unocss-preset-subgrid/issues"
+  },
+  "keywords": [
+    "css",
+    "unocss",
+    "unocss-preset",
+    "unocss-preset-subgrid"
+  ],
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "unbuild"
+  },
+  "peerDependencies": {
+    "@unocss/preset-wind": ">= 0.56.0 < 1",
+    "unocss": ">= 0.56.0 < 1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.8.1",
+    "@unocss/preset-mini": "^0.63.6",
+    "@unocss/preset-wind": "^0.63.6",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.3",
+    "unbuild": "^2.0.0",
+    "unocss": "^0.63.6"
+  }
+}
